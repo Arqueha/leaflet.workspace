@@ -32,7 +32,7 @@ var m = L.map("map", {
     zoomControl: false
 });
 if (!location.hash) {
-    m.setView([32.69, 10.55], 3);
+    m.setView([39.4697, -0.37739], 13);
 }
 m.addHash();
 var url = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
