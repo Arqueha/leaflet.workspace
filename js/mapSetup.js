@@ -48,7 +48,7 @@ var toner = L.tileLayer('http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png', {
 mq.addTo(m);
 var lc = L.control.layers({
     "Toner": toner,
-    "penstreet": mq
+    "Openstreet": mq
 }).addTo(m);
 //make the map
 var options = {
@@ -80,4 +80,3 @@ var options = {
         });
     }
 };
-
